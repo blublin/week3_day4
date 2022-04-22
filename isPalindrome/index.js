@@ -25,13 +25,7 @@ const expected4 = false;
  * @param {string} str
  * @returns {boolean} Whether the given str is a palindrome or not.
  */
-function isPalindrome(str) {
-    let reverseStr =  str.split('').reverse().join('')
-    if (str === reverseStr) {
-        return true
-    }
-    return false
-}
+function isPalindrome(str) {}
 
 
 
